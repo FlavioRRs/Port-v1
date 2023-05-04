@@ -17,8 +17,8 @@ export default function Sobre() {
           pela UNIFESO e desenvolvedor web com foco atual em Front-end.
           <br /> No momento estou trabalhando com projetos dentro da própria
           faculdade e adquirindo experiência. <br />
-          Hoje na área de desenvolvimento vivo o aprendizado continuo, estudando
-          as tecnologias mais atuais e me mantenho 100% atualizado.
+          Hoje, na área de desenvolvimento, vivo o aprendizado contínuo,
+          estudando as tecnologias mais atuais e me mantenho 100% atualizado.
           <br /> Busco oportunidades no mercado como dev e, em um futuro
           próximo, viso me tornar um desenvolvedor Full Stack.
         </p>

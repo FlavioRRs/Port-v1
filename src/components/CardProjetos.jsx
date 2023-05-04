@@ -2,7 +2,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { useOutletContext } from "react-router-dom";
 
-export default function CardProjetos({ nome, src, git, deploy }) {
+export default function CardProjetos({ nome, src, git, deploy, tecnologias }) {
   const theme = useOutletContext();
   return (
     <div
@@ -30,7 +30,7 @@ export default function CardProjetos({ nome, src, git, deploy }) {
             theme === "dark" ? "text-white" : "text-black"
           }`}
         >
-          HTML - CSS - JS - REACT
+          {tecnologias}
         </p>
       </div>
       <div className="flex gap-16">
