@@ -8,7 +8,7 @@ export default function CardProjetos({ nome, src, git, deploy, tecnologias }) {
     <div
       className={` rounded-lg p-4 flex flex-col items-center w-[400px] gap-4 ${
         theme === "dark"
-          ? "bg-black shadow shadow-[0px_0px_25px_-15px_white]"
+          ? "bg-black shadow-[0px_0px_25px_-15px_white]"
           : "bg-white shadow-2xl"
       }`}
     >
@@ -22,7 +22,7 @@ export default function CardProjetos({ nome, src, git, deploy, tecnologias }) {
         </p>
       </div>
       <div>
-        <img src={src} alt="imagem do projeto" className="" />
+        <img src={src} alt="imagem do projeto" />
       </div>
       <div>
         <p

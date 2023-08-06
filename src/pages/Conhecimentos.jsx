@@ -2,7 +2,7 @@ import html from "../assets/html.svg";
 import CSS from "../assets/CSS.svg";
 import JS from "../assets/JS.svg";
 import REACT from "../assets/REACT.svg";
-import SQL from "../assets/SQL.svg";
+import type from "../assets/type.svg";
 import Tailwind from "../assets/Tailwind.svg";
 import CardConhecimento from "../components/CardConhecimento";
 
@@ -13,37 +13,37 @@ export default function Conhecimentos() {
         content="HTML 5"
         src={html}
         pb_color="#E44D26"
-        pb_fill={75}
+        pb_fill={86}
       />
       <CardConhecimento
         content="CSS 3"
         src={CSS}
         pb_color="#264DE4"
-        pb_fill={60}
+        pb_fill={85}
       />
       <CardConhecimento
         content="JavaScript"
         src={JS}
         pb_color="#F7DF1E"
-        pb_fill={68}
+        pb_fill={85}
       />
       <CardConhecimento
         content="REACT"
         src={REACT}
         pb_color="#00D8FF"
-        pb_fill={65}
-      />
-      <CardConhecimento
-        content="SQL"
-        src={SQL}
-        pb_color="#00BCF2"
-        pb_fill={50}
+        pb_fill={83}
       />
       <CardConhecimento
         content="TailWind"
         src={Tailwind}
         pb_color="#44A8B3"
-        pb_fill={69}
+        pb_fill={80}
+      />
+      <CardConhecimento
+        content="TypeScript"
+        src={type}
+        pb_color="#007ACC"
+        pb_fill={72}
       />
     </section>
   );
